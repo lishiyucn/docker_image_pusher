@@ -1,5 +1,5 @@
 nginx
-openeuler/openeuler:24.03-lts
+openeuler/openeuler:24.03-lts --platform=linux/arm64 linux/amd64
 #支持私库
 #支持指定架构
---platform=linux/arm64 linux/amd64
+#--platform=linux/arm64 linux/amd64
