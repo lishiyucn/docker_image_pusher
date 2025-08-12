@@ -1,4 +1,7 @@
 --platform=linux/amd64 vllm/vllm-openai:v0.8.5
+--platform=linux/amd64 postgres:16-alpine
+--platform=linux/amd64 node:18-alpine
+--platform=linux/amd64 python:3.11-slim
 #--platform=linux/arm64 openeuler/openeuler:24.03-lts
 #--platform=linux/amd64 openeuler/openeuler:24.03-lts
 #--platform=linux/arm64 ubuntu/squid:latest
